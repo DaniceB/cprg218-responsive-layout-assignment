@@ -63,7 +63,7 @@ aside {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 1rem;
+        gap: rem;
     }
 
     figure img {
@@ -105,8 +105,10 @@ aside {
         flex-direction: row;
     }
 
-    main figure {
+    figure img {
         display: flex;
         flex-direction: row;
+        max-width: 300px;
+        max-height: 300px;
     }
 } 
