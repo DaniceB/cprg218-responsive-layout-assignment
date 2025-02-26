@@ -4,23 +4,46 @@
 
 .header-container {
     background-color: #120323;
+
 }
 
 h1 {
-    text-align: right;
+    text-align: center;
     color: #97bf04;
+}
+
+figure {
+    border-width: 10px;
+    border-style: solid;
+    border-color: #d9043d;
 }
 
 main {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1fr, 3);
     gap: 2rem;
+}
+
+h2 {
+    color: #120323;
 }
 
 body {
     font-family: sans-serif;
+
 }
 
 head {
     font-family: sans-serif;
+}
+
+footer {
+    background-color: #d9043d;
+    text-align: center;
+    padding: 3rem;
+    color: white;
+}
+
+aside {
+    background-color: #97bf04;
 }
