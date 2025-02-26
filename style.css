@@ -4,9 +4,10 @@
 
 .header-container {
     background-color: #120323;
-    font-family: sans-serif;
     color: #120323;
     text-align: center;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
 }
 
 h1 {
@@ -14,7 +15,7 @@ h1 {
     color: #97bf04;
 }
 
-.container {
+#container {
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -24,13 +25,10 @@ figure img{
     border: 5px solid #d9043d;
 }
 
-main {
-    font-family: sans-serif;
-}
-
 body {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 footer {
@@ -39,19 +37,39 @@ footer {
     padding: 3rem;
     color: white;
     margin-top: 8px;
-    font-family: sans-serif;
 }
 
 aside {
     background-color: #97bf04;
     padding: 5px;
-    font-family: sans-serif;
 }
 
-@media screen and (min-width: 1000p){
-    .header-container {
-        background-color: #120323;
-        font-family: sans-serif;
-        color: #120323;
+/* laptop */
+@media screen and (min-width: 1000px){
+    header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    main figure {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #container {
+        flex-direction: row;
     }
 }
+
+/* tablet */
+@media screen and (min-width: 768px){
+    header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    main figure {
+        display: flex;
+        flex-direction: row;
+    }
+} 
