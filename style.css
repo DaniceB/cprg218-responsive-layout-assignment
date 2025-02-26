@@ -4,7 +4,11 @@
 
 .header-container {
     background-color: #120323;
+}
+
+h1 {
     text-align: right;
+    color: #97bf04;
 }
 
 main {
