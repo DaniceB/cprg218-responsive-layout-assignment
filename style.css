@@ -18,11 +18,12 @@ h1 {
 #container {
     display: flex;
     flex-direction: column;
-    margin: auto;
 }
 
 figure img{
     border: 5px solid #d9043d;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 body {
@@ -54,11 +55,22 @@ aside {
     main figure {
         display: flex;
         flex-direction: row;
+        max-width: 300px;
+        max-height: 300px;
     }
 
     #container {
         flex-direction: row;
     }
+
+   aside {
+    margin: 10px;
+    max-width: 35rem;
+    max-height: 25rem;
+   }
+
+   figcaption {
+   }
 }
 
 /* tablet */
